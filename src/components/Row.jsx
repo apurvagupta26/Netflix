@@ -22,7 +22,7 @@ const Row = ({ title, fetchUrl }) => {
                 alt="{item.title}"
               />
               <div className="absolute top-0 left-0 w-full h-full hover:bg-black/80 hover:opacity-100 opacity-0 text-white ">
-                <p className="">{item?.title}</p>
+                <p className="whitespace-normal text-xs md:text-sm font-bold flex justify-center items-center h-full text-center">{item?.title}</p>
               </div>
             </div>
           ))}
